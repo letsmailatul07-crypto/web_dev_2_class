@@ -7,13 +7,11 @@
 // console.log(words2)
 
 // let str ="tu meri me tera me teri tu mera"
-// let words3=str.split("r");
+// let words3=str.split("r").length-1;
 // console.log(words3)
 
 // function demo(){
-
-//     console.log("demo")
-
+//     console.log("demo");
 // }
 // demo()
 
@@ -22,11 +20,12 @@
 // }
 // console.log(sample(1,10))
 
-// // const test =(c,d)=>c+d;
-// const test =(c,d)=>{
+// // const test=(c,d)=>c+d;
+// const test=(c,d)=>{
 //     return c+d;
-// }
-
-
+// };
 // console.log(test(4,0))
 
+(function(){
+    console.log("demo");
+})()
